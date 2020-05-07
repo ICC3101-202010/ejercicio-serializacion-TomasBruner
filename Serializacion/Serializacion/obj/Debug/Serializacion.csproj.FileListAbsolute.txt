@@ -1,0 +1,7 @@
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\bin\Debug\Serializacion.exe.config
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\bin\Debug\Serializacion.exe
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\bin\Debug\Serializacion.pdb
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\obj\Debug\Serializacion.csprojAssemblyReference.cache
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\obj\Debug\Serializacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\obj\Debug\Serializacion.exe
+C:\Users\tomas\Downloads\ejercicio-serializacion-TomasBruner\Serializacion\Serializacion\obj\Debug\Serializacion.pdb
