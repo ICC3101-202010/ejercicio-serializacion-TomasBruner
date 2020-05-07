@@ -63,6 +63,7 @@ namespace Serializacion
                 }
                 if (respuesta1 == 4)
                 {
+
                     Person persona = (Person)formatter.Deserialize(stream);
                     stream.Close();
                 }
