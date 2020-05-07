@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Soap;
 
 namespace Serializacion
 {
@@ -16,7 +17,7 @@ namespace Serializacion
         {
             string respuesta = "si";
             List<Person> personas = new List<Person>();
-            IFormatter formatter = new BinaryFormatter();
+            IFormatter formatter = new SoapFormatter();
             Stream stream = new FileStream("Tarea.txt", FileMode.Create, FileAccess.Write, FileShare.None);
 
             Console.WriteLine("Seleccione una opcion");
@@ -54,12 +55,15 @@ namespace Serializacion
                 }
                 if (respuesta1 == 3)
                 {
-                    formatter.Serialize(stream, personas);
+                    foreach (Person persona in personas)
+                    {
+                        formatter.Serialize(stream, persona);
+                    }
                     stream.Close();
                 }
                 if (respuesta1 == 4)
                 {
-                    Person perosnas = (Person)formatter.Deserialize(stream);
+                    Person persona = (Person)formatter.Deserialize(stream);
                     stream.Close();
                 }
                 
